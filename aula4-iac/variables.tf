@@ -39,7 +39,7 @@ variable "cpu" {
 variable "node_vm_size" {
   description = "Tamanho da VM utilizada pelos nós do AKS."
   type        = string
-  default     = "Standard_D2s_v7"
+  default     = "Standard_D2s_v6"
 }
 
 variable "node_count" {
